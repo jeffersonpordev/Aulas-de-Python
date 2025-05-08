@@ -67,3 +67,21 @@ lista.insert(9, 58)# o primeiro numeo é o local e o segundo numero é o valor #
 #print(lista[90]) # sempre que acessar um local que não existe na lista, acontecera um erro.
 print(lista, 'Removido,', ultimo_valor, nome)
 
+"""
+Cuidado com dados mutáveis
+= copiado o valor(imutáveis)
+= - aponta para o mesmo valor na memória ( mutável)
+"""
+# nome = 'jefferson'
+# noutra_variavel = nome
+# nome = 'joao'
+
+# print(nome)
+# print(noutra_variavel)
+
+lista_a = ['jefferson', 'Maria', 1, True, 1.2]
+lista_b =lista_a.copy()
+
+lista_a[0] = 'qualquer coisa'
+print(lista_a)
+print(lista_b)
