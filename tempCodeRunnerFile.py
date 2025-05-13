@@ -1,1 +1,1 @@
-p
+enumerate(lista
