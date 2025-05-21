@@ -33,6 +33,8 @@ while True:
             print('Não foi possível apagar este índice')
         except IndexError:
             print('Ìndice não existe na lista')
+        except Exception:
+            print('Erro desconhecido')
     elif opcao == 'l':
             os.system('cls')
 
