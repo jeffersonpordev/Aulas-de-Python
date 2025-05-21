@@ -1,1 +1,1 @@
-lista = []
+numero_3
