@@ -1,1 +1,1 @@
-enumerate(lista
+lista = []
