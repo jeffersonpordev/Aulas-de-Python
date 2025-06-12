@@ -1,6 +1,6 @@
 """
 Argumenetos nomeados e não nomeados em funções Python
-Argumenetos nomeados tem nome com sinla de igual
+Argumenetos nomeados tem nome com sinal de igual
 Argumenetos não nomeados recebe apenas o argumento(valor)
 """
 
